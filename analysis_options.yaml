@@ -1,0 +1,19 @@
+include: package:very_good_analysis/analysis_options.yaml
+
+analyzer:
+  exclude:
+    - build/**
+    - android/**
+    - ios/**
+    # Generated code: build_runner output and tool/gen_strings.dart output.
+    - "**/*.g.dart"
+
+linter:
+  rules:
+    # This is an app, not a published library: doc comments are written where
+    # they help, not on every public member.
+    public_member_api_docs: false
+    # Keep the classic `const HomeScreen({super.key})` constructor form used by
+    # Flutter's templates and the Riverpod and Drift docs, rather than Dart
+    # 3.13's `const new(...)`, so the code stays familiar to contributors.
+    unnecessary_type_name_in_constructor: false

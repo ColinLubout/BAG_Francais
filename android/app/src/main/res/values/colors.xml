@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="ic_launcher_background">#6EC9C8</color>
+    <!-- The app's background: white in light mode, navy in dark mode
+         (values-night). Shown behind the Flutter UI while it starts. -->
+    <color name="app_background">#FFFFFF</color>
+</resources>

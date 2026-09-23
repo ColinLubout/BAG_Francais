@@ -1,0 +1,11 @@
+# Keep LF everywhere so generated files and the format check give the same
+# result on Windows, macOS and the Linux CI runners.
+* text=auto eol=lf
+
+*.bat text eol=crlf
+
+*.jar binary
+*.pdf binary
+*.png binary
+*.jpg binary
+*.ttf binary

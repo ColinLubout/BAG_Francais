@@ -1,0 +1,14 @@
+# Coverage is reported on every PR. The spec's target (at least 90%) applies
+# to the domain layer, which arrives in milestone 1; until then the checks are
+# informational and never block a PR.
+coverage:
+  status:
+    project:
+      default:
+        informational: true
+    patch:
+      default:
+        informational: true
+
+ignore:
+  - "**/*.g.dart"
