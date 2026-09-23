@@ -1,0 +1,301 @@
+{
+  "_about": {
+    "purpose": "Every piece of French text the app shows. This file is the single source of truth: the app reads its text from here and nothing is written directly in the code.",
+    "howToEdit": "Change any value on the right-hand side. Do not change the keys on the left, and keep the {placeholders} exactly as they are — they are filled in at runtime.",
+    "placeholders": "{n} = a number, {version} = content version, {date} = a date, {size} = a size in Mo, {drill} = a drill name, {answer} = the correct answer, {word} = a word.",
+    "addingText": "New text in the app means a new key here first. Never hardcode a string in a widget.",
+    "welcomeScreen": "The welcome screen is the one screen in English; its text lives in strings_en_welcome.json."
+  },
+
+  "common": {
+    "appName": "BAH Français",
+    "cancel": "Annuler",
+    "save": "Enregistrer",
+    "delete": "Supprimer",
+    "edit": "Modifier",
+    "close": "Fermer",
+    "back": "Retour",
+    "search": "Rechercher",
+    "retry": "Réessayer",
+    "undo": "Annuler",
+    "yes": "Oui",
+    "no": "Non",
+    "loading": "Chargement…",
+    "unlimited": "Illimité",
+    "none": "Aucun",
+    "minutes": "{n} min",
+    "seconds": "{n} s"
+  },
+
+  "navigation": {
+    "home": "Accueil",
+    "words": "Mots",
+    "verbs": "Verbes",
+    "stats": "Statistiques",
+    "settings": "Réglages"
+  },
+
+  "home": {
+    "start": "Commencer",
+    "drillGender": "Genre",
+    "drillVocabulary": "Vocabulaire",
+    "drillConjugation": "Conjugaison",
+    "dueCount": "{n} à réviser",
+    "dueNone": "Tout est à jour",
+    "reviewList": "Liste de révision",
+    "drillSettings": "Réglages de l’exercice",
+    "noCategories": "Aucune catégorie choisie",
+    "preparingContent": "Préparation du contenu…"
+  },
+
+  "drill": {
+    "cardsAnswered": "{n} cartes",
+    "genderMasculine": "masculin",
+    "genderFeminine": "féminin",
+    "genderBoth": "les deux",
+    "answerHint": "Votre réponse",
+    "answerHintWithArticle": "Votre réponse, avec l’article",
+    "infinitive": "Infinitif",
+    "tense": "Temps",
+    "iKnowIt": "Je le connais",
+    "iDontKnow": "Je ne sais pas",
+    "next": "Suivant",
+    "resultCorrect": "Correct",
+    "resultAlmost": "Presque",
+    "resultIncorrect": "Incorrect",
+    "correctAnswer": "Réponse : {answer}",
+    "typo": "Faute de frappe",
+    "tooEasy": "Trop facile",
+    "tip": "Astuce",
+    "allCaughtUp": "Tout est à jour !",
+    "freePractice": "Vous pouvez continuer avec les cartes les plus fragiles.",
+    "noCards": "Aucune carte disponible",
+    "openSettings": "Ouvrir les réglages",
+    "markedKnown": "Marqué comme connu",
+    "leaveSession": "Terminer la session ?"
+  },
+
+  "sessionSummary": {
+    "title": "Résumé de session",
+    "cardsAnswered": "Cartes répondues",
+    "accuracy": "Réponses correctes",
+    "duration": "Durée",
+    "finish": "Terminer",
+    "resume": "Continuer"
+  },
+
+  "reviewList": {
+    "title": "Liste de révision",
+    "dueToday": "À réviser aujourd’hui",
+    "atRisk": "À risque",
+    "hardWords": "Mots difficiles",
+    "emptyGroup": "Rien ici pour l’instant",
+    "cardCount": "{n} cartes"
+  },
+
+  "words": {
+    "title": "Mots",
+    "add": "Ajouter un mot",
+    "searchHint": "Rechercher un mot",
+    "filterCategory": "Catégorie",
+    "filterLevel": "Niveau",
+    "filterSource": "Source",
+    "filterHardOnly": "Mots difficiles uniquement",
+    "sourceOfficial": "Officiel",
+    "sourcePersonal": "Perso",
+    "sortAlphabetical": "A → Z",
+    "sortWeakestFirst": "Les plus fragiles d’abord",
+    "empty": "Aucun mot ne correspond."
+  },
+
+  "wordDetail": {
+    "definition": "Définition",
+    "synonyms": "Synonymes",
+    "examples": "Phrases d’exemple",
+    "category": "Catégorie",
+    "level": "Niveau",
+    "yourCards": "Vos cartes",
+    "nextReview": "Prochaine révision",
+    "reviewCount": "Révisions",
+    "lapseCount": "Oublis",
+    "markKnown": "Je le connais",
+    "backToReview": "Remettre en révision",
+    "addImage": "Ajouter une image",
+    "removeImage": "Retirer l’image",
+    "deleteConfirm": "Supprimer ce mot et ses cartes ?",
+    "officialWordNotice": "Ce mot fait partie de la liste officielle et ne peut pas être modifié."
+  },
+
+  "addWord": {
+    "title": "Ajouter un mot",
+    "word": "Mot",
+    "gender": "Genre",
+    "image": "Image",
+    "chooseImage": "Choisir une image",
+    "definition": "Définition",
+    "definitionHelp": "Utilisée comme question quand il n’y a pas d’image.",
+    "example": "Phrase d’exemple",
+    "synonyms": "Synonymes",
+    "synonymsHelp": "Séparez les synonymes par des virgules.",
+    "category": "Catégorie",
+    "categoryPersonal": "Perso",
+    "duplicate": "Ce mot existe déjà.",
+    "seeExisting": "Voir la fiche",
+    "required": "Ce champ est obligatoire.",
+    "imageTooLarge": "Image trop lourde, elle a été réduite.",
+    "imageInvalid": "Image illisible. Choisissez un autre fichier.",
+    "saved": "Mot ajouté"
+  },
+
+  "verbs": {
+    "title": "Verbes",
+    "searchHint": "Rechercher un verbe",
+    "group": "Groupe",
+    "auxiliary": "Auxiliaire",
+    "groupEr": "verbes en -er",
+    "groupIr": "verbes en -ir",
+    "groupRe": "verbes en -re",
+    "groupIrregular": "verbes irréguliers",
+    "empty": "Aucun verbe ne correspond.",
+    "newVerbsNotice": "Les nouveaux verbes arrivent avec les mises à jour du contenu."
+  },
+
+  "verbDetail": {
+    "conjugation": "Conjugaison",
+    "sentences": "Phrases",
+    "addSentence": "Ajouter une phrase",
+    "sentenceHelp": "Écrivez une phrase avec ___ à la place du verbe.",
+    "person": "Personne",
+    "expectedAnswer": "Réponse attendue",
+    "expectedAnswerHelp": "Corrigez l’accord si nécessaire.",
+    "sentenceSaved": "Phrase ajoutée",
+    "missingBlank": "La phrase doit contenir ___ une seule fois."
+  },
+
+  "tenses": {
+    "present": "présent",
+    "passeCompose": "passé composé",
+    "imparfait": "imparfait",
+    "futurSimple": "futur simple"
+  },
+
+  "persons": {
+    "firstSingular": "je",
+    "secondSingular": "tu",
+    "thirdSingular": "il / elle",
+    "firstPlural": "nous",
+    "secondPlural": "vous",
+    "thirdPlural": "ils / elles"
+  },
+
+  "levels": {
+    "beginner": "débutant",
+    "intermediate": "intermédiaire",
+    "advanced": "avancé"
+  },
+
+  "mastery": {
+    "new": "Nouveau",
+    "learning": "En apprentissage",
+    "fragile": "Fragile",
+    "acquired": "Acquis",
+    "mastered": "Maîtrisé",
+    "known": "Connu"
+  },
+
+  "stats": {
+    "title": "Statistiques",
+    "allDrills": "Tous les exercices",
+    "today": "Aujourd’hui",
+    "cardsReviewed": "Cartes révisées",
+    "newCards": "Nouvelles cartes",
+    "correctAnswers": "Réponses correctes",
+    "timeSpent": "Temps passé",
+    "retention": "Rétention réelle",
+    "last7Days": "7 jours",
+    "last30Days": "30 jours",
+    "targetRetention": "Objectif",
+    "levels": "Niveaux",
+    "forecast": "Prévisions",
+    "forecastHelp": "Cartes à réviser dans les 7 prochains jours",
+    "sessions": "Sessions",
+    "hardWords": "Mots difficiles",
+    "noData": "Pas encore de données."
+  },
+
+  "settings": {
+    "title": "Réglages",
+    "targetRetention": "Rétention visée",
+    "targetRetentionHelp": "Un objectif plus élevé demande plus de révisions, mais on oublie moins.",
+    "drillSettings": "Réglages des exercices",
+    "updateContent": "Mettre à jour le contenu",
+    "contentVersion": "Contenu : version {version} · {date}",
+    "theme": "Thème",
+    "themeSystem": "Système",
+    "themeLight": "Clair",
+    "themeDark": "Sombre",
+    "crashReports": "Rapport de plantage",
+    "crashReportsHelp": "Envoie des rapports de plantage anonymes. Aucune donnée personnelle, aucune analyse d’usage.",
+    "about": "À propos"
+  },
+
+  "drillSettings": {
+    "title": "Réglages – {drill}",
+    "newPerDay": "Nouvelles cartes par jour",
+    "maxReviewsPerDay": "Révisions max par jour",
+    "categories": "Catégories",
+    "weightNever": "Jamais",
+    "weightLess": "Moins",
+    "weightNormal": "Normal",
+    "weightMore": "Plus",
+    "showImage": "Afficher l’image",
+    "articleMandatory": "Article obligatoire",
+    "articleMandatoryHelp": "Il faudra écrire l’article avec le mot.",
+    "liveFeedback": "Correction en direct",
+    "liveFeedbackHelp": "Colore les lettres pendant que vous écrivez.",
+    "tenses": "Temps",
+    "verbGroups": "Groupes de verbes",
+    "appliesNextCard": "Les changements s’appliquent à partir de la carte suivante."
+  },
+
+  "contentUpdate": {
+    "title": "Mise à jour du contenu",
+    "check": "Mettre à jour le contenu",
+    "checking": "Vérification…",
+    "upToDate": "Le contenu est à jour",
+    "available": "Version {version} disponible",
+    "size": "{size} Mo",
+    "download": "Télécharger",
+    "later": "Plus tard",
+    "downloading": "Téléchargement…",
+    "installing": "Installation…",
+    "done": "Contenu mis à jour : version {version}",
+    "failed": "La mise à jour a échoué. Rien n’a été modifié.",
+    "noConnection": "Pas de connexion",
+    "appTooOld": "Mettez à jour l’application pour recevoir ce contenu."
+  },
+
+  "about": {
+    "title": "À propos",
+    "version": "Version",
+    "contentVersion": "Version du contenu",
+    "licence": "Licence",
+    "sourceCode": "Code source",
+    "imageCredits": "Crédits des images",
+    "libraryLicences": "Licences des bibliothèques",
+    "privacy": "Confidentialité"
+  },
+
+  "accessibility": {
+    "logo": "BAH Français",
+    "chooseMasculine": "masculin",
+    "chooseFeminine": "féminin",
+    "chooseBoth": "les deux",
+    "wordImage": "Illustration du mot {word}",
+    "answerCorrect": "Réponse correcte",
+    "answerAlmost": "Réponse presque correcte",
+    "answerIncorrect": "Réponse incorrecte",
+    "closeSession": "Terminer la session",
+    "accentKey": "Lettre accentuée {word}"
+  }
+}

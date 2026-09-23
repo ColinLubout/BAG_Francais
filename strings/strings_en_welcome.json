@@ -1,0 +1,22 @@
+{
+  "_about": {
+    "purpose": "The welcome screen is the only screen in English. It is shown once, on first launch.",
+    "howToEdit": "Change any value on the right-hand side; keep the keys and any {placeholders} as they are.",
+    "rest": "Every other string in the app is French and lives in strings_fr.json."
+  },
+
+  "welcome": {
+    "title": "BAH Français",
+    "intro": "Learn and keep your French in the odd spare minute.",
+    "pointSessions": "Sessions are as short as you like. Start, answer a few cards, stop whenever — nothing is lost.",
+    "pointSpacedRepetition": "Words and verbs come back just before you would forget them.",
+    "pointNoPressure": "No streaks, no badges, no notifications, no accounts.",
+    "pointPrivacy": "Everything stays on this phone and is included in its backups. Deleting the app deletes your progress.",
+    "pointKnownWords": "Already know a word? Tap “Je le connais” during a drill and it won't come back.",
+    "pointFrench": "From here on, the app is in French.",
+    "crashReportsTitle": "Send crash reports",
+    "crashReportsBody": "Anonymous crash reports only — no personal data and no usage tracking. You can change this any time in Réglages.",
+    "preparingContent": "Preparing content…",
+    "start": "Commencer"
+  }
+}
