@@ -1,0 +1,22 @@
+# Launch screens for iOS and Android. After changing the images in
+# assets/branding/, regenerate with: dart run flutter_native_splash:create
+#
+# The logo on a plain background that follows the phone's light/dark setting:
+# white in light mode, navy in dark mode. No gradient.
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#14334C"
+  image: assets/branding/splash_logo.png
+  image_dark: assets/branding/splash_logo.png
+
+  # Android 12+ draws its own launch screen: a solid colour and one icon,
+  # cropped to a circle.
+  android_12:
+    color: "#FFFFFF"
+    color_dark: "#14334C"
+    image: assets/branding/splash_logo_android12.png
+    image_dark: assets/branding/splash_logo_android12.png
+
+  android: true
+  ios: true
+  web: false
